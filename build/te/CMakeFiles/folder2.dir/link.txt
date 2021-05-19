@@ -1,2 +1,0 @@
-/bin/ar qc libfolder2.a  CMakeFiles/folder2.dir/foo4.c.o
-/bin/ranlib libfolder2.a

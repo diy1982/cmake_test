@@ -1,8 +1,0 @@
-/home/wd/work/cmake_test/build/CMakeFiles/rebuild_cache.dir
-/home/wd/work/cmake_test/build/CMakeFiles/edit_cache.dir
-/home/wd/work/cmake_test/build/folder2/CMakeFiles/rebuild_cache.dir
-/home/wd/work/cmake_test/build/folder2/CMakeFiles/edit_cache.dir
-/home/wd/work/cmake_test/build/folder2/CMakeFiles/folder2.dir
-/home/wd/work/cmake_test/build/test/CMakeFiles/rebuild_cache.dir
-/home/wd/work/cmake_test/build/test/CMakeFiles/edit_cache.dir
-/home/wd/work/cmake_test/build/test/CMakeFiles/test.dir
