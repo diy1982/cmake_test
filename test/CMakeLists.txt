@@ -4,9 +4,13 @@ project(test)
 include(../tool/file_list.cmake)
 
 set(ALL_FOLDER
+    "../folder1/sub_folder1"
+    "../folder1/sub_folder2"
+    "../folder1/"
     "../folder2"
 )
 set(LIB_LIST
+    "folder1"
     "folder2"
 )
 # 变量不能与函数的参数重名
