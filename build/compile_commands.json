@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/wd/work/cmake_test/build/folder2",
+  "command": "/bin/x86_64-linux-gnu-gcc-9  -I/home/wd/work/cmake_test/folder2/../folder2  -g   -o CMakeFiles/folder2.dir/foo4.c.o   -c /home/wd/work/cmake_test/folder2/foo4.c",
+  "file": "/home/wd/work/cmake_test/folder2/foo4.c"
+},
+{
+  "directory": "/home/wd/work/cmake_test/build/test",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/wd/work/cmake_test/test/../folder2  -g   -o CMakeFiles/test.dir/main.cpp.o -c /home/wd/work/cmake_test/test/main.cpp",
+  "file": "/home/wd/work/cmake_test/test/main.cpp"
+}
+]

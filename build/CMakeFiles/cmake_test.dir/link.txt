@@ -1,0 +1,1 @@
+/bin/x86_64-linux-gnu-g++-9  -g   CMakeFiles/cmake_test.dir/test/main.cpp.o  -o cmake_test  test/libfolder2.a -ltest 
