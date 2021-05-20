@@ -3,7 +3,8 @@ project(cmake_test)
 include(tool/build_options.cmake)
 # UT工程的构建开关，默认关
 option(BUILD_UT "是否构建UT工程" OFF)
-option(GCOV_OPT "是否构建UT工程" ON)
+# UT工程GCOV开关，默认开
+option(GCOV_OPT "是否构建GCOV" ON)
 if(GCOV_OPT)
     include(tool/gcov.cmake)
 endif()

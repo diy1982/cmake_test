@@ -3,7 +3,7 @@ extern "C"
 {
 #endif
 
-    void foo4();
+    int foo4();
 
 #ifdef __cplusplus
 }

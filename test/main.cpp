@@ -1,13 +1,8 @@
-#include "foo1.h"
-#include "foo2.h"
-#include "foo3.h"
-#include "foo4.h"
+#include <gtest/gtest.h>
 
-int main()
+int main(int argc,  char *argv[])
 {
-    foo1();
-    foo2();
-    foo3();
-    foo4();
-    return 0;
+
+    testing::InitGoogleTest(&argc, argv);
+    return RUN_ALL_TESTS();
 }
