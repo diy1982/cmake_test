@@ -1,9 +1,12 @@
 cmake_minimum_required(VERSION 3.16)
 project(cmake_test)
-
+include(tool/build_options.cmake)
 # UT工程的构建开关，默认关
 option(BUILD_UT "是否构建UT工程" OFF)
-
+option(GCOV_OPT "是否构建UT工程" ON)
+if(GCOV_OPT)
+    include(tool/gcov.cmake)
+endif()
 # 调试用
 set(BUILD_UT ON)
 message(STATUS "BUILD_UT: ${BUILD_UT}")
