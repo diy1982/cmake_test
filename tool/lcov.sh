@@ -1,11 +1,11 @@
-cd ../build/test
+cd ../build
 # 这步可有可无，即归零所有执行过程的覆盖率信息的统计文件
 lcov -d ./ -z
 # 1.初始化并创建基准数据文件
 # --rc lcov_branch_coverage=1 分支覆盖率使能， -c 捕获， -i 初始化， -d 应用目录， -o 输出文件
 lcov --rc lcov_branch_coverage=1 -c -i -d ./ -o init.info
 # 2.执行编译后的测试文件
-./test
+./test/test
 # 3.收集测试文件运行后产生的覆盖率文件
 lcov --rc lcov_branch_coverage=1 -c -d ./ -o cover.info
 # 4.合并基准数据和执行测试文件后生成的覆盖率数据

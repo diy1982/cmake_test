@@ -14,6 +14,12 @@ message(STATUS "BUILD_UT: ${BUILD_UT}")
 include(all_folder.cmake)
 list(GET ALL_TEST 0 UT_PRJ)
 
+# 依次构建库
+# foreach(CHILD ${ALL_LIB})
+#     message(STATUS "Bulid Library: ${CHILD}")
+#     add_subdirectory(${CHILD})
+# endforeach()
+
 # 构建UT工程
 if(BUILD_UT)
     message(STATUS "Bulid UT Project")
@@ -29,3 +35,4 @@ else()
         add_subdirectory(${CHILD})
     endforeach()
 endif()
+ 
