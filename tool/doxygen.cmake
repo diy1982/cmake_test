@@ -1,0 +1,16 @@
+# 输出HTML
+set(DOXYGEN_GENERATE_HTML YES)
+# 输出中文
+set(DOXYGEN_OUTPUT_LANGUAGE Chinese)
+# 输出LATEX
+set(DOXYGEN_GENERATE_LATEX YES)
+# 允许程序文档中显示本文档化的函数相互调用关系
+set(DOXYGEN_REFERENCED_BY_RELATION YES)
+set(DOXYGEN_REFERENCES_RELATION YES)
+set(DOXYGEN_REFERENCES_LINK_SOURCE YES)
+# 在程序文档中允许以图例形式显示函数调用关系，前提是你已经安装了 graphviz 软件包
+set(DOXYGEN_HAVE_DOT YES)
+set(DOXYGEN_CALL_GRAPH YES)
+set(DOXYGEN_CALLER_GRAPH YES)
+# 对于使用 typedef 定义的结构体、枚举、联合等数据类型，只按照 typedef 定义的类型名进行文档化
+# set(DOXYGEN_TYPEDEF_HIDES_STRUCT YES)
