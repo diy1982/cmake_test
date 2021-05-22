@@ -79,28 +79,28 @@ VSCode在Windows上安装好后，通过安装安装插件来实现环境搭建�
 | 分类            | 插件                                                         | 截图                                                         |
 | --------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | C/C++语言支持   | C/C++                                                        | ![C/C++](imag/ccpp.png)                                      |
-|                 | C++ Intellisense                                             | ![C++ Intellisense](imag/C++ Intellisense.png)               |
-| GTest           | C++ TestMate                                                 | ![C++ TestMate](imag/C++ TestMate.png)                       |
+|                 | C++ Intellisense                                             | ![C++ Intellisense](imag/C++Intellisense.png)               |
+| GTest           | C++ TestMate                                                 | ![C++ TestMate](imag/C++TestMate.png)                       |
 | CMake支持       | CMake Tools<br/>CMake                                        | ![CMake Tools](imag/cmake.png)                               |
-| Doxyge支持      | Doxygen Documentation generation                             | ![Doxygen Documentation generation](imag/Doxygen Documentation generation.png) |
+| Doxyge支持      | Doxygen Documentation generation                             | ![Doxygen Documentation generation](imag/DoxygenDocumentationgeneration.png) |
 | Git及GitHub支持 | Git Blame<br/>Git Graph<br/>Git History<br/>GitHub Pull Requests and Issues<br/>GitLens — Git supercharged | ![git](imag/git.png)                                         |
 | WSL2支持        | Remote - Containers<br/>Remote - SSH<br/>Remote - SSH: Editing Configuration Files<br/>Remote - WSL | ![wsl](imag/wsl.png)                                         |
 | python支持      | Pylance<br/>Python                                           | ![python](imag/python.png)                                   |
-| 代码风格支持    | Better C++ Syntax                                            | ![Better C++ Syntax](imag/Better C++ Syntax.png)             |
-|                 | Prettier - Code formatter                                    | ![Prettier - Code formatter](imag/Prettier - Code formatter.png) |
-| 彩色括号显示    | Bracket Pair Colorizer 2                                     | ![Bracket Pair Colorizer 2](imag/Bracket Pair Colorizer 2.png) |
+| 代码风格支持    | Better C++ Syntax                                            | ![Better C++ Syntax](imag/BetterC++Syntax.png)             |
+|                 | Prettier - Code formatter                                    | ![Prettier - Code formatter](imag/PrettierCodeformatter.png) |
+| 彩色括号显示    | Bracket Pair Colorizer 2                                     | ![Bracket Pair Colorizer 2](imag/BracketPairColorizer2.png) |
 | 彩虹缩进显示    | indent-rainbow                                               | ![indent-rainbow](imag/indent-rainbow.png)                   |
-| 十六进制编辑    | Hex Editor                                                   | ![Hex Editor](imag/Hex Editor.png)                           |
-| 汇编支持        | x86 and x86_64 Assembly                                      | ![x86 and x86_64 Assembly](imag/x86 and x86_64 Assembly.png) |
-| 图片支持        | Luna Paint                                                   | ![Luna Paint](imag/Luna Paint.png)                           |
+| 十六进制编辑    | Hex Editor                                                   | ![Hex Editor](imag/HexEditor.png)                           |
+| 汇编支持        | x86 and x86_64 Assembly                                      | ![x86 and x86_64 Assembly](imag/x86andx86_64Assembly.png) |
+| 图片支持        | Luna Paint                                                   | ![Luna Paint](imag/LunaPaint.png)                           |
 | Markdown        | markdownlint                                                 | ![markdownlint](imag/markdownlint.png)                       |
 | Jupyter支持     | Jupyter                                                      | ![Jupyter](imag/Jupyter.png)                                 |
-| Todo支持        | Todo Tree                                                    | ![Todo Tree](imag/Todo Tree.png)                             |
-| 主题和图标      | C/C++ Themes                                                 | ![CC++ Themes](imag/CC++ Themes.png)                         |
-| 主题和图标      | Dracula Official                                             | ![Dracula Official](imag/Dracula Official.png)               |
-| 主题和图标      | Fluent Icons                                                 | ![Fluent Icons](imag/Fluent Icons.png)                       |
-| 主题和图标      | Material Icon Theme                                          | ![Material Icon Theme](imag/Material Icon Theme.png)         |
-| 主题和图标      | Material Product Icons                                       | ![Material Product Icons](imag/Material Product Icons.png)   |
+| Todo支持        | Todo Tree                                                    | ![Todo Tree](imag/TodoTree.png)                             |
+| 主题和图标      | C/C++ Themes                                                 | ![CC++ Themes](imag/CC++Themes.png)                         |
+| 主题和图标      | Dracula Official                                             | ![Dracula Official](imag/DraculaOfficial.png)               |
+| 主题和图标      | Fluent Icons                                                 | ![Fluent Icons](imag/FluentIcons.png)                       |
+| 主题和图标      | Material Icon Theme                                          | ![Material Icon Theme](imag/MaterialIconTheme.png)         |
+| 主题和图标      | Material Product Icons                                       | ![Material Product Icons](imag/MaterialProductIcons.png)   |
 | 主题和图标      | vscode-icons                                                 | ![vscode-icons](imag/vscode-icons.png)                       |
 
 
