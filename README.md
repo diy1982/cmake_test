@@ -6,11 +6,11 @@
 
 # 安装WSL2
 
-参考[Windows安装WSL2](https://mp.csdn.net/editor/html/116260306)
+参考[Windows安装WSL2](https://blog.csdn.net/diy1982/article/details/116260306?spm=1001.2014.3001.5501)
 
 # Ubuntu的使用
 
-参考[WSL2(Ubuntu)使用小记](https://editor.csdn.net/md/?articleId=116497546)
+参考[WSL2(Ubuntu)使用小记](https://blog.csdn.net/diy1982/article/details/116497546?spm=1001.2014.3001.5501)
 
 # 在Ubuntu上安装工具
 
@@ -36,7 +36,7 @@ sudo apt install cmake
 
 GTest安装
 
-参考[WLS2(Ubuntu)安装GTest](https://editor.csdn.net/md/?articleId=116310301)
+参考[WLS2(Ubuntu)安装GTest](https://blog.csdn.net/diy1982/article/details/116310301?spm=1001.2014.3001.5501)
 
 LCOV安装
 
