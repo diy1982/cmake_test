@@ -1,4 +1,4 @@
-cd ../build
+cd build
 # 这步可有可无，即归零所有执行过程的覆盖率信息的统计文件
 lcov -d ./ -z
 # 1.初始化并创建基准数据文件
@@ -22,4 +22,4 @@ lcov --remove total.info '*/usr/include/*' '*/gtest/*' -o final.info
 # genhtml --branch-coverage -o cover_report --legend --title "${project_name} commit SHA1:${commitID}" --prefix=${curr_path} final.info
 # -o 生成的html及相关文件的目录名称，--legend简单的统计信息说明
 # --title项目名称，--prefix 将要生成的html文件的路径
-genhtml --branch-coverage -o cover_report --legend --title "GTest_Test" --prefix=./ final.info
+genhtml --branch-coverage -o cover_report --legend --title "CMake_Test" --prefix=./ final.info

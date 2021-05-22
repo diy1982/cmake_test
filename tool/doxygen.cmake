@@ -1,7 +1,17 @@
+find_package(Doxygen REQUIRED dot OPTIONAL_COMPONENTS mscgen dia)
+# 这里只是举例，其它 Doxygen 配置加上 `DOXYGEN_` 前缀即可
 # 输出HTML
 set(DOXYGEN_GENERATE_HTML YES)
+# 版本号
+# set(DOXYGEN_PROJECT_NUMBER 1.0.1)
+# 版本简要说明
+set(DOXYGEN_PROJECT_BRIEF 说明)
 # 输出中文
 set(DOXYGEN_OUTPUT_LANGUAGE Chinese)
+# 剥离绝对路径，显示相对路径
+set(DOXYGEN_STRIP_FROM_PATH /home/wd/work/cmake_test)
+# 让 doxygen 静悄悄地为你生成文档，只有出现警告或错误时，才在终端输出提示信息
+set(DOXYGEN_QUIET YES)
 # 输出LATEX
 set(DOXYGEN_GENERATE_LATEX YES)
 # 允许程序文档中显示本文档化的函数相互调用关系

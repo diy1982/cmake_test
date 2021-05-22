@@ -10,3 +10,10 @@ set(ALL_LIB
 set(ALL_TEST
     "test" #UT 测试的遍历
 )
+# 要生成文档的文件夹，手动设置
+set(DOXY_FOLDER
+    "../folder1"
+    "../folder1/sub_folder1" 
+    "../folder1/sub_folder2" 
+    "../folder2"
+)

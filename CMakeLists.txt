@@ -4,29 +4,20 @@ include(tool/build_options.cmake)
 # UT工程的构建开关，默认关
 option(BUILD_UT "是否构建UT工程" OFF)
 # UT工程GCOV开关，默认开
-option(GCOV_OPT "是否构建GCOV" ON)
+option(GCOV_OPT "是否构建GCOV" OFF)
 # 用于cppcheck
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 # 调试用
-set(BUILD_UT ON)
+# set(BUILD_UT ON)
 message(STATUS "BUILD_UT: ${BUILD_UT}")
-
-find_package(Doxygen REQUIRED dot OPTIONAL_COMPONENTS mscgen dia)
-# 这里只是举例，其它 Doxygen 配置加上 `DOXYGEN_` 前缀即可
-
-include(tool/doxygen.cmake)
-set(FOLDER
-    "../folder1"
-    "../folder1/sub_folder1" 
-    "../folder1/sub_folder2" 
-    "../folder2"
-)
-
-doxygen_add_docs(doxygen_docs ${FOLDER})
 
 # 导入库变量，测试工程变量
 include(all_folder.cmake)
 list(GET ALL_TEST 0 UT_PRJ)
+
+# Doxygen
+include(tool/doxygen.cmake)
+doxygen_add_docs(doxygen_docs ${DOXY_FOLDER})
 
 # 依次构建库
 # foreach(CHILD ${ALL_LIB})
@@ -49,4 +40,3 @@ else()
         add_subdirectory(${CHILD})
     endforeach()
 endif()
- 
