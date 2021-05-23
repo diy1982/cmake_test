@@ -1,4 +1,5 @@
-/*! @mainpage 主页
+/**
+@mainpage 主页
 # 简介
 一些描述。
 # Quick Start

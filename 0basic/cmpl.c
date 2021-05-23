@@ -1,25 +1,24 @@
 /**
  * ****************************************************************************
- * @file     foo1.c
+ * @file     complex.c
  * @brief    
  * @author   wu di (wudi2504@163.com)
  * @version  1.0
- * @date     2021-05-21
+ * @date     2021-04-24
  * 
  * @copyright Copyright (c) 2021
  * ****************************************************************************
  */
-#include "foo1.h"
-#include <stdio.h>
+#include "cmpl.h"
 /**
  * ****************************************************************************
  * @brief    
  * 
+ * @param    len       My Param doc
  * @return   int 
  * ****************************************************************************
  */
-int foo1()
+int init_complex_f(int len)
 {
-    printf("This is Foo 111\n");
     return 0;
 }

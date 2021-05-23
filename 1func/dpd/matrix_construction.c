@@ -1,21 +1,25 @@
 /**
  * ****************************************************************************
- * @file     foo1.h
+ * @file     matrix_construction.c
  * @brief    
  * @author   wu di (wudi2504@163.com)
  * @version  1.0
- * @date     2021-05-21
+ * @date     2021-05-16
  * 
  * @copyright Copyright (c) 2021
  * ****************************************************************************
  */
-#ifdef __cplusplus
-extern "C"
+#include "cmpl.h"
+
+typedef struct 
 {
-#endif
+    DatD x;
+    DatD y; 
+}DpdData;
+DpdData R;
 
-    int foo1();
 
-#ifdef __cplusplus
+void r_matrix_construction()
+{
+
 }
-#endif

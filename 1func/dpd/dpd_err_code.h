@@ -1,21 +1,11 @@
 /**
  * ****************************************************************************
- * @file     foo2.h
- * @brief    
+ * @file     dpd_err_code.h
+ * @brief    DPD告警码定义
  * @author   wu di (wudi2504@163.com)
  * @version  1.0
- * @date     2021-05-21
+ * @date     2021-05-23
  * 
  * @copyright Copyright (c) 2021
  * ****************************************************************************
  */
-#ifdef __cplusplus
-extern "C"
-{
-#endif
-
-    int foo2();
-
-#ifdef __cplusplus
-}
-#endif

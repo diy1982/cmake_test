@@ -1,32 +1,27 @@
 /**
  * ****************************************************************************
- * @file     foo4.h
- * @brief    
+ * @file     dpd_init.c
+ * @brief    DPD初始化
  * @author   wu di (wudi2504@163.com)
  * @version  1.0
- * @date     2021-05-21
+ * @date     2021-05-23
  * 
  * @copyright Copyright (c) 2021
  * ****************************************************************************
  */
-#ifdef __cplusplus
-extern "C"
-{
-#endif
-
-    int foo4();
-
-#ifdef __cplusplus
-}
-#endif
-
+#include "dpd_para.h"
+#include "dpd_dat.h"
+CmplF g_x[DPD_DAT_LEN];
+CmplF g_y[DPD_DAT_LEN];
+DpdDat g_dpd_dat;
 /**
  * ****************************************************************************
- * @brief    
+ * @brief    DPD初始化
  * 
  * ****************************************************************************
  */
-typedef struct
+void dpd_init()
 {
-    int a;/**< 变量A */
-}foo4_str;
+    g_dpd_dat.x.data = g_x;
+    g_dpd_dat.x.data = g_y;
+}

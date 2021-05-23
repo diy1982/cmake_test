@@ -1,26 +1,23 @@
 /**
  * ****************************************************************************
- * @file     foo3.c
- * @brief    
+ * @file     dpd_dat.h
+ * @brief    DPD的数据定义
  * @author   wu di (wudi2504@163.com)
  * @version  1.0
- * @date     2021-05-21
+ * @date     2021-05-23
  * 
  * @copyright Copyright (c) 2021
  * ****************************************************************************
  */
-#include "foo3.h"
-#include "mainpage.h"
-#include <stdio.h>
+#include "cmpl.h"
 /**
  * ****************************************************************************
- * @brief    
+ * @brief    DPD的数据
  * 
- * @return   int 
  * ****************************************************************************
  */
-int foo3()
+typedef struct 
 {
-    printf("This is Foo 333\n");
-    return 2;
-}
+    DatF x;/**<前向数据*/
+    DatF y;/**<反馈数据*/
+}DpdDat;
