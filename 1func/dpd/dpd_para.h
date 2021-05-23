@@ -9,4 +9,9 @@
  * @copyright Copyright (c) 2021
  * ****************************************************************************
  */
+#ifndef DPD_PARA_
+#define DPD_PARA_
+
 #define DPD_DAT_LEN 8192
+
+#endif

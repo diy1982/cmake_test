@@ -13,7 +13,7 @@ set(CMAKE_CXX_FLAGS_RELEASE "-O3")
 
 # 设置标准库版本为c99 也选为c89/c99/c11/c17
 # set(CMAKE_C_FLAGS "-std=c99 --coverage")
-set(CMAKE_C_FLAGS "-std=c89")
+set(CMAKE_C_FLAGS "-std=c99")
 # 设置Debug模式下，不开启优化，开启调试，生成更详细的gdb调试信息
 set(CMAKE_C_FLAGS_DEBUG "-O0 -g -ggdb")
 # 设置Release模式下，开启最高级优化

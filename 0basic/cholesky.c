@@ -2,7 +2,7 @@
 #include <math.h>
 #include <string.h>
 
-#include "complex.h"
+// #include "complex.h"
 
 typedef double Type;
 #define N 3
@@ -11,10 +11,11 @@ Type L[N][N], S[N];
 
 void cholesky(Type W[][N], Type *V, int n)
 {
-    int i, j, k;
+    int i, j, k, m;
+    Type sum;
     for (k = 0; k < n; k++)
     {
-        Type sum = 0;
+        sum = 0;
         for (i = 0; i < k; i++)
         {
             sum += L[k][i] * L[k][i];
@@ -38,7 +39,7 @@ void cholesky(Type W[][N], Type *V, int n)
 
     for (k = 0; k < n; k++)
     {
-        Type sum = 0;
+        sum = 0;
         for (i = 0; i < k; i++)
         {
             sum += S[i] * L[k][i];
@@ -48,8 +49,8 @@ void cholesky(Type W[][N], Type *V, int n)
 
     for (i = n - 1; i >= 0; i--)
     {
-        Type sum = 0;
-        for (int m = i + 1; m < n; m++)
+        sum = 0;
+        for (m = i + 1; m < n; m++)
         {
             sum += C[m] * L[m][i];
         }
@@ -59,7 +60,7 @@ void cholesky(Type W[][N], Type *V, int n)
 
 int test_cholesky()
 {
-    int i, j;
+    // int i, j;
     memset(L, 0, sizeof(L));
     W[0][0] = 4;
     W[0][1] = -1;

@@ -9,16 +9,6 @@
  * @copyright Copyright (c) 2021
  * ****************************************************************************
  */
-#include "cmpl.h"
-
-typedef struct 
-{
-    DatD x;
-    DatD y; 
-}DpdData;
-DpdData R;
-
-
 void r_matrix_construction()
 {
 

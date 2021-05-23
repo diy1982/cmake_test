@@ -34,6 +34,8 @@ if(BUILD_UT)
     endif()
     add_subdirectory(${UT_PRJ})
 else()
+    # 构建平台库
+    add_subdirectory(platform)
     # 依次构建库
     foreach(CHILD ${ALL_LIB})
         message(STATUS "Bulid Library: ${CHILD}")
